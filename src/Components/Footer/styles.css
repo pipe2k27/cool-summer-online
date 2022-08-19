@@ -1,0 +1,29 @@
+.footer {
+  background-color: #393e46;
+  background: linear-gradient(
+    180deg,
+    rgba(139, 245, 255, 1) 0%,
+    rgba(247, 245, 216, 1) 100%
+  );
+
+  padding-top: 25px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  color: #818181;
+}
+
+.footer-logo {
+  width: 250px;
+}
+
+.instagram {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #818181;
+}

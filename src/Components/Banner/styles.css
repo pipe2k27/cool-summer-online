@@ -1,0 +1,130 @@
+.banner1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px 0;
+  max-width: 1200px;
+}
+
+.banner-pic {
+  width: 500px;
+}
+
+.flag {
+  width: 85px;
+  margin: 20px 0;
+}
+
+@media (min-width: 1205px) {
+  .b1 {
+    grid-area: b1;
+    width: 1202px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .b2 {
+    grid-area: b2;
+    width: 374px;
+    margin-right: 40px;
+  }
+  .b3 {
+    grid-area: b3;
+    width: 374px;
+  }
+
+  .b4 {
+    grid-area: b4;
+    width: 374px;
+    margin-left: 40px;
+  }
+  .banner2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px 0;
+    justify-content: space-between;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "b2 b3 b4"
+      "b1 b1 b1";
+    max-width: 1202px;
+    row-gap: 40px;
+    padding: 0;
+  }
+}
+.buttonw {
+  padding: 10px 0;
+  color: white;
+  background-color: #25d366;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+.buttonw-width {
+  width: 250px;
+}
+
+.buttonw:hover {
+  background-color: #8bd1ff;
+}
+
+.banner-photo {
+}
+
+@media (max-width: 1205px) {
+  .banner-photo {
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .banner2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+    row-gap: 40px;
+  }
+  .b4 {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .banner1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px 0;
+    max-width: 90%;
+  }
+  .banner-pic {
+    width: 300px;
+    margin-top: 70px;
+  }
+
+  .buttonw-width {
+    margin-top: 50px;
+  }
+
+  .banner2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+  }
+
+  .banner-photo {
+  }
+}
+
+@media (max-width: 470px) {
+}
