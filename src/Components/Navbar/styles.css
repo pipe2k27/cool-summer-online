@@ -5,10 +5,13 @@
   grid-template-columns: repeat(2, auto);
   justify-content: space-between;
   align-items: center;
+  top: 0;
   height: 80px;
+  width: 100%;
   z-index: 1;
-  position: relative;
-  color: #818181;
+  position: fixed;
+  color:rgb(19, 12, 92);
+  background-color: rgba(255, 255, 255, 0.925);
 }
 
 .blob-bar {
@@ -46,10 +49,10 @@
   top: -3px;
   font-weight: 700;
 }
-.nav-element:hover {
+/* .nav-element:hover {
   border-radius: 5px;
   color: #fff88f;
-}
+} */
 
 .fa-bars {
   position: absolute;
@@ -84,8 +87,7 @@
     position: absolute;
     bottom: -4px;
   }
-  .blob-bar {
-  }
+  
 }
 
 @media (max-width: 900px) {
@@ -142,6 +144,5 @@
 }
 
 @media (max-width: 600px) {
-  .logo-word {
-  }
+  
 }

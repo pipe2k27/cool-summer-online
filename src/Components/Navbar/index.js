@@ -18,11 +18,11 @@ export default function Navbar() {
 
   return (
     <div className="header" id="header">
-      <img
+      {/* <img
         src={process.env.PUBLIC_URL + "/images/blob-bar.png"}
         className="blob-bar"
         style={size.width > 530 ? wide : null}
-      ></img>
+      ></img> */}
 
       <Link to="/">
         <img

@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import { FaSwimmingPool } from 'react-icons/fa';
+import { IoIosConstruct } from 'react-icons/io'
 
 const Banner = () => {
   return (
     <div>
       <div className="banner1 center">
-        <div className="center-all">
+        {/* <div className="center-all">
           <h1 className="text-center">PILETAS A MEDIDA!</h1>
           <p className="text-center">
             Tené rápido tu pileta con excelente calidad y al mejor precio!
@@ -27,6 +29,23 @@ const Banner = () => {
             src={process.env.PUBLIC_URL + "/images/pool.png"}
             className="banner-pic center"
           ></img>
+        </div> */}
+        <div className="mainBG">
+          <img className="main-banner" src={process.env.PUBLIC_URL + "/images/water-20.gif"}></img>
+          {/* <h1 className="text-center">PILETAS A MEDIDA!</h1> */}
+          <img className="main-logo" src={process.env.PUBLIC_URL + "/images/logo.png"}></img>
+          <h1>CONSTRUÍ TU PROPIO ESTILO</h1>
+          <h2>Disfrutalo a tu manera</h2>
+          <div className="main-btn-container">
+            <div className="main-btn left">
+              <IoIosConstruct className="main-btn-icon"/>
+              <h3>Construcción</h3>
+            </div>
+            <div className="main-btn right">
+              <FaSwimmingPool className="main-btn-icon"/>
+              <h3>Revestimientos</h3>
+            </div>
+          </div>
         </div>
       </div>
       <div className="banner2 center">
