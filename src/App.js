@@ -8,11 +8,12 @@ import Construccion from "./Components/Construccion";
 import Luces from "./Components/Luces";
 import Baby from "./Components/Baby";
 import Solar from "./Components/Solar";
+import NavbarBS from "./Components/NavbarBS";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavbarBS />
       <Route exact path="/">
         <Banner />
         <Banner2 />

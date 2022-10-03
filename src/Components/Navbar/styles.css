@@ -1,6 +1,6 @@
 /* header component */
 
-.header {
+/* .header {
   display: flex;
   grid-template-columns: repeat(2, auto);
   justify-content: space-between;
@@ -41,8 +41,8 @@
   cursor: pointer;
   padding: 0 7px;
   transition: all 0.3s ease-out;
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: inherit !important;
   position: relative;
   height: 100%;
   margin: auto 0;
@@ -66,7 +66,7 @@
 
 .nav-span{
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   height: 2px;
   left: 25%;
   right: 85%;
@@ -160,4 +160,4 @@
 
 @media (max-width: 600px) {
   
-}
+} */
