@@ -34,19 +34,24 @@ export default function Navbar() {
 
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
         <Link to="/" className="nav-element">
-          Home
+          <p>Home</p>
+          <span className="nav-span"></span>
         </Link>
         <Link to="/construccion" className="nav-element">
-          Construcción
+          <p>Construcción</p>
+          <span className="nav-span"></span>
         </Link>
         <Link to="/luces" className="nav-element">
-          Luces
+          <p>Luces</p>
+          <span className="nav-span"></span>
         </Link>
         <Link to="/solar" className="nav-element">
-          Calefacción Solar
+          <p>Calefacción Solar</p>
+          <span className="nav-span"></span>
         </Link>
         <Link to="/baby-safe" className="nav-element">
-          Baby Safe
+          <p>Baby Safe</p>
+          <span className="nav-span"></span>
         </Link>
       </div>
       <i onClick={handleClick} className="fas fa-bars"></i>

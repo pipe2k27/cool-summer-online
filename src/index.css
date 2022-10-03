@@ -71,7 +71,7 @@ h4 {
 }
 
 .white-text {
-  .color: white;
+  color: white;
 }
 
 .small-text {
@@ -155,8 +155,6 @@ a {
 
 .center {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .vertical {
