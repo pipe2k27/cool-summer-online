@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import { FaSwimmingPool } from 'react-icons/fa';
-import { IoIosConstruct } from 'react-icons/io'
+import { RiToolsFill } from 'react-icons/ri';
+import { TbShovel } from 'react-icons/tb';
 import ControlledCarousel from "../Carousel";
-import { RiWhatsappFill } from 'react-icons/ri';
 import ToolipBS from "../TooltipBs";
 import TooltipBS from "../TooltipBs";
 
@@ -23,13 +22,13 @@ const Banner = () => {
           <div className="main-btn-container">
             <Link className="mainLink" to={"/construccion"}>
               <div className="main-btn">
-                <IoIosConstruct className="main-btn-icon" />
+                <TbShovel className="main-btn-icon" />
                 <h3>Construcción</h3>
               </div>
             </Link>
             <Link className="mainLink" to={"revestimientos"}>
               <div className="main-btn">
-                <FaSwimmingPool className="main-btn-icon" />
+                <RiToolsFill className="main-btn-icon" />
                 <h3>Revestimientos</h3>
               </div>
             </Link>

@@ -18,7 +18,7 @@ function TooltipBS() {
             overlay={renderTooltip}
         >
             <Button variant="success">
-                <a href="https://api.whatsapp.com/send?phone=5491144949207&amp;text=Buen%20día,%20te%20hago%20una%20consulta:"><RiWhatsappFill className="waIcon" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5491144949207&amp;text=Buen%20día,%20te%20hago%20una%20consulta:" target="_blank"><RiWhatsappFill className="waIcon" /></a>
             </Button>
         </OverlayTrigger>
     );
