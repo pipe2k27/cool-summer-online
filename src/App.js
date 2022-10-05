@@ -10,6 +10,7 @@ import Baby from "./Components/Baby";
 import Solar from "./Components/Solar";
 import NavbarBS from "./Components/NavbarBS";
 import TooltipBS from "./Components/TooltipBs";
+import Revestimientos from "./Components/Revestimientos";
 
 function App() {
   return (
@@ -22,14 +23,11 @@ function App() {
       <Route path="/construccion">
         <Construccion />
       </Route>
-      <Route path="/luces">
-        <Luces />
+      <Route path="/revestimientos">
+        <Revestimientos />
       </Route>
-      <Route path="/baby-safe">
-        <Baby />
-      </Route>
-      <Route path="/solar">
-        <Solar />
+      <Route path="/contacto">
+        <p>Contacto</p>
       </Route>
       <TooltipBS />
       <Footer />
