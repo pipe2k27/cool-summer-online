@@ -11,6 +11,7 @@ import Solar from "./Components/Solar";
 import NavbarBS from "./Components/NavbarBS";
 import TooltipBS from "./Components/TooltipBs";
 import Revestimientos from "./Components/Revestimientos";
+import Contacto from "./Components/Contacto";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Revestimientos />
       </Route>
       <Route path="/contacto">
-        <p>Contacto</p>
+        <Contacto />
       </Route>
       <TooltipBS />
       <Footer />

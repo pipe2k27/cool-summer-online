@@ -1,0 +1,122 @@
+.contactoContainer {
+    position: relative;
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-image: url(/src/Assets/water-20.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.contactoOverlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255) 0%, rgba(21, 14, 86, 0.0) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: auto;
+    padding: 70px;
+}
+
+.contactTitle h1{
+    font-size: 80px;
+    margin: 30px 0px;
+    color:rgba(19, 12, 92) ;
+    font-weight: 700;
+}
+
+.contactTitle img{
+    align-self: center;
+    height: 90px;
+    width: auto;
+    margin: 30px 0;
+}
+
+.contactTitle h4{
+    color: rgba(19, 12, 92);
+    font-size: 18px;
+    width: 500px;
+}
+
+/*rgba(90, 85, 156, 0.93)*/
+
+.contactForm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm div{
+    width: 90%;
+    margin: 10px;
+    padding: 0px !important;
+}
+
+.contactForm input{
+    padding: 15px;
+    font-size: 22px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgba(19, 12, 92) !important;
+    font-weight: 700;
+    border-bottom: solid 1px rgba(19, 12, 92);
+    border-radius: 0px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.contactForm textarea{
+    padding: 15px;
+    font-size: 22px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgba(19, 12, 92) !important;
+    font-weight: 700;
+    border-bottom: solid 1px rgba(19, 12, 92);
+    border-radius: 0px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.form-control::placeholder{
+    color: rgba(19, 12, 92) !important;
+}
+
+.form-control:focus {
+    color: rgba(19, 12, 92) !important;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: transparent !important;
+    border-bottom: solid 1px rgba(19, 12, 92) !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.contactForm button{
+    width: 90%;
+    margin: 30px 10px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: solid 1px rgba(19, 12, 92);
+    background-color: rgba(19, 12, 92);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contactForm button:hover{
+    background-color: rgba(19, 12, 92);
+    border-color: #fff;
+}

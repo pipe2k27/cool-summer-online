@@ -15,6 +15,7 @@ const Banner = () => {
     <div>
       <div className="banner1 center">
         <div className="mainBG">
+          <span className="mainOverlay"></span>
           <img className="main-banner" src={process.env.PUBLIC_URL + "/images/water-20.gif"}></img>
           <img className="main-logo" src={process.env.PUBLIC_URL + "/images/logo-no-letters.png"}></img>
           <h1>CONSTRUÍ TU PROPIO ESTILO</h1>
