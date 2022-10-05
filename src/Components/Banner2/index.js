@@ -7,7 +7,7 @@ const Banner2 = () => {
       <div className="mainText">
         
           <h2>
-            ¿Por qué Cool Summer?
+            ¿POR QUÉ COOL SUMMER?
           </h2>
           <p>
             Desde hace más de 20 años que construimos, remodelamos y modernizamos piletas en zona Norte,

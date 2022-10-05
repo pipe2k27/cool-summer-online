@@ -18,12 +18,10 @@ const Construccion = () => {
         </div>
       </div>
 
-      <div className="text-holder">
-        <p className="paragraph">
+      <div className="mainText">
+        <p>
           Nos destacamos por construir piletas con la más alta teconología.
-        </p>
-        <p className="paragraph">
-          Se realizara la excavación en forma manual o con maquina. Se
+          Se realizará la excavación en forma manual o con maquina. Se
           confeccionara un entramado de hierro aletados de 6 mm formando una
           malla soldada, cubriendo piso, paredes, vereda perimetral y solario de
           igual sección e idéntica armadura, el piso y los chanfles se
@@ -31,19 +29,20 @@ const Construccion = () => {
         </p>
 
         <h2>
-          Hormigón proyectado
+          HORMIGÓN PROYECTADO
         </h2>
         <p className="paragraph">
-          Sistema constructivo monolítico de hormigón proyectado H30 y
-          estructura de acero compuesta por hierros de 10mm, 8mm y mallas
-          electrosoldadas de 6mm, con equipos y terminaciones de primera
-          calidad.
+          Este sistema es mas rapido y brinda una solidez superior al tradicional mixto de ladrillo y hormigón armado
+          Al ser proyectado en la totalidad de la superficie en un solo día (en el espacio de un  par de horas) brinda una estructura monolitica de hormigon a toda la pileta.
+          El hormigon h30 que se utiliza para la construcción, es preparado en la planta de fabricacion por computadoras y procesado para ser transpotado y utilizado en la superficie de metros prevista.
+          La estructura dela pileta, esta armada con doble maya de hierros, de 6mm y de 8mm, que recubre toda la superficie, se prepara in situ, según los requerimientos del terreno (no se colocan mayas armadas estandar), en COOL SUMMER le brindamos especial dedicacion y cuidado a este y cada uno de los detalles que hacen de su pileta un producto de exelencia y calidad superior al estandar.
+          Las otras piletas son parecidas, las nuestras son unicas!!!
         </p>
         <h2>
-          Hormigón Armado
+          HORMIGÓN ARMADO
         </h2>
 
-        <p className="paragraph">
+        <p >
           Se confeccionara una columna central a lo largo de la pileta y tres
           columnas a lo ancho (en forma de costillas) para darle mayor firmeza a
           la estructura de hierro de la superficie total de la pileta. A un
@@ -52,7 +51,7 @@ const Construccion = () => {
           de panderete cumpliendo la función de encofrado perdido, entre dicho
           encofrado y el suelo natural se hará una colada de hormigón.
         </p>
-        <p className="paragraph">
+        <p>
           En las paredes y el piso se realizara un azotado de hidrófugo y se
           revocara listo para pintar. La vereda perimetral será de 50 cm. De
           ancho en todo el perímetro de la pileta asentada en cemento y cal

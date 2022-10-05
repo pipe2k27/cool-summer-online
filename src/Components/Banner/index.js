@@ -37,8 +37,8 @@ const Banner = () => {
         </div>
       </div>
       <div className="mainText">
-        <h2 style={{ marginBottom: 20 }}>
-          ¿Qué hacemos?
+        <h2>
+          ¿QUÉ HACEMOS?
         </h2>
         <p>
           Somos una empresa, con una vasta experiencia y trayectoria en el mercado de la construcción, refacción y modernización de piletas.

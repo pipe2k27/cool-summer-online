@@ -25,6 +25,8 @@
 
 .footerContain p{
   margin: 3px;
+  color: rgba(77, 75, 104, 0.93);
+  font-weight: 600;
 }
 
 .instagram {
