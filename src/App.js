@@ -9,6 +9,7 @@ import Luces from "./Components/Luces";
 import Baby from "./Components/Baby";
 import Solar from "./Components/Solar";
 import NavbarBS from "./Components/NavbarBS";
+import TooltipBS from "./Components/TooltipBs";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <Route path="/solar">
         <Solar />
       </Route>
-
+      <TooltipBS />
       <Footer />
     </div>
   );

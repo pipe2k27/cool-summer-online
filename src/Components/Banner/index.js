@@ -10,6 +10,8 @@ import TooltipBS from "../TooltipBs";
 
 const Banner = () => {
 
+  const bannerImages = ["/images/banner.JPG", "/images/banner2.JPG", "/images/banner3.JPG", "/images/banner4.JPG"]
+
   return (
     <div>
       <div className="banner1 center">
@@ -19,14 +21,18 @@ const Banner = () => {
           <h1>CONSTRUÍ TU PROPIO ESTILO</h1>
           <h2>Disfrutalo a tu manera</h2>
           <div className="main-btn-container">
-            <div className="main-btn">
-              <IoIosConstruct className="main-btn-icon" />
-              <h3>Construcción</h3>
-            </div>
-            <div className="main-btn">
-              <FaSwimmingPool className="main-btn-icon" />
-              <h3>Revestimientos</h3>
-            </div>
+            <Link className="mainLink" to={"/construccion"}>
+              <div className="main-btn">
+                <IoIosConstruct className="main-btn-icon" />
+                <h3>Construcción</h3>
+              </div>
+            </Link>
+            <Link className="mainLink" to={"revestimientos"}>
+              <div className="main-btn">
+                <FaSwimmingPool className="main-btn-icon" />
+                <h3>Revestimientos</h3>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -41,8 +47,7 @@ const Banner = () => {
 
         </p>
       </div>
-      <TooltipBS />
-      <ControlledCarousel />
+      <ControlledCarousel array={bannerImages} />
     </div>
   );
 };

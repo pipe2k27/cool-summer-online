@@ -30,13 +30,13 @@ function NavbarBS() {
                             </Link>
                         </Nav.Link>
                         <Nav.Link as={'div'}>
-                            <Link to="/luces" className="nav-element">
+                            <Link to="/revestimientos" className="nav-element">
                                 <p>Revestimientos</p>
                                 <span className="nav-span"></span>
                             </Link>
                         </Nav.Link>
                         <Nav.Link as={'div'}>
-                            <Link to="/luces" className="nav-element">
+                            <Link to="/contacto" className="nav-element">
                                 <p>Contacto</p>
                                 <span className="nav-span"></span>
                             </Link>
