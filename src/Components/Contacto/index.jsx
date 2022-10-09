@@ -25,13 +25,14 @@ const Contacto = () => {
                     <img src="/images/logo-no-letters.png" alt="" />
                 </div>
                 <div className='contactForm'>
-                    <Form className='contactForm' noValidate validated={validated} onSubmit={handleSubmit}>
+                    <Form className='contactForm' noValidate validated={validated} onSubmit={handleSubmit} action="https://formsubmit.co/tobias_mancini@hotmail.com" method='post'>
                         <Row className="mb-3 inputsContain">
                             <span className='inputsSpan'></span>
                             <Form.Group as={Col} className='inputStyle' md="4" controlId="validationCustom01">
                                 <Form.Control
                                     required
                                     type="text"
+                                    name='nombre'
                                     placeholder="NOMBRE COMPLETO"
                                 />
                                 <Form.Control.Feedback>Bien!</Form.Control.Feedback>
@@ -40,6 +41,7 @@ const Contacto = () => {
                                 <Form.Control
                                     required
                                     type="email"
+                                    name='email'
                                     placeholder="E-MAIL"
                                 />
                                 <Form.Control.Feedback>Bien!</Form.Control.Feedback>
@@ -47,16 +49,35 @@ const Contacto = () => {
                             <Form.Group as={Col} md="4" className='inputStyle' controlId="validationCustom03">
                                 <Form.Control
                                     required
-                                    type="phone"
+                                    type="number"
+                                    name='telefono'
                                     placeholder="TELÉFONO"
                                 />
                                 <Form.Control.Feedback>Bien!</Form.Control.Feedback>
                             </Form.Group>
                             <InputGroup className='inputStyle'>
-                                
-                                <Form.Control as="textarea" aria-label="With textarea" placeholder='CONSULTA'/>
+
+                                <Form.Control as="textarea" aria-label="With textarea" name='consulta' placeholder='CONSULTA' />
                             </InputGroup>
                             <Button className='inputStyle' type="submit">ENVIAR</Button>
+                            <Form.Group>
+                                <Form.Control
+                                    type="hidden"
+                                    name='_next'
+                                    value="http://localhost:3000/contacto"
+                                />
+                                <Form.Control.Feedback>Bien!</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group >
+                                <Form.Control
+                                    type="hidden"
+                                    name='_captcha'
+                                    value="false"
+                                />
+                                <Form.Control.Feedback>Bien!</Form.Control.Feedback>
+                            </Form.Group>
+                            {/* <input type="hidden" name="_next" value="http://localhost:3000/contacto" />
+                            <input type="hidden" name="_captcha" value="false" /> */}
                         </Row>
                     </Form>
                 </div>
