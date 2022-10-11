@@ -4,7 +4,7 @@ import ControlledCarousel from "../Carousel";
 
 const Revestimientos = () => {
 
-    const construccionImages = ["/images/const4.jpg", "/images/const5.jpg", "/images/const6.jpg", "/images/const1.jpg", "/images/const3.jpg", "/images/const9.jpg"]
+    const construccionImages = ["/images/revestimientos4.jpeg", "/images/revestimientos2.jpeg", "/images/revestimientos3.jpeg", "/images/revestimientos1.jpeg"]
 
     return (
         <div>

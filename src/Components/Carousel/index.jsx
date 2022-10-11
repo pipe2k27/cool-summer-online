@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css";
 
-function ControlledCarousel(array) {
+function ControlledCarousel(props) {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -13,7 +13,7 @@ function ControlledCarousel(array) {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className='carouselContainer'>
       {
-        array.array.map(element => {
+        props.array.map(element => {
 
           return <Carousel.Item key={element}>
             <img
