@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { RiToolsFill } from 'react-icons/ri';
 import { TbShovel } from 'react-icons/tb';
 import ControlledCarousel from "../Carousel";
-import ToolipBS from "../TooltipBs";
-import TooltipBS from "../TooltipBs";
 
 const Banner = () => {
 
@@ -13,7 +11,7 @@ const Banner = () => {
 
   return (
     <div>
-      <div className="banner1 center">
+      <div className="banner1">
         <div className="mainBG">
           <span className="mainOverlay"></span>
           <img className="main-banner" src={process.env.PUBLIC_URL + "/images/water-20.gif"}></img>

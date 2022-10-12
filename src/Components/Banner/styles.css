@@ -97,17 +97,6 @@
   font-weight: 600;
 }
 
-
-
-.banner-pic {
-  width: 500px;
-}
-
-.flag {
-  width: 85px;
-  margin: 20px 0;
-}
-
 .mainText {
   width: 100%;
   display: flex;
@@ -157,4 +146,246 @@
   padding: 0px;
   cursor: pointer;
   transition: all 200ms ease-in;
+}
+
+/*********** 991px MAX-WIDTH ***********/
+
+@media screen and (max-width:991px) {
+  .mainBG .main-logo {
+    height: 55px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .mainBG h1{
+    font-size: 65px;
+  }
+
+  .mainBG h2{
+    font-size: 25px;
+  }
+
+  .main-btn-container{
+    margin-top: 50px;
+  }
+
+  .main-btn{
+    height: 85px;
+    width: 220px;
+  }
+
+  .main-btn-icon{
+    font-size: 30px;
+  }
+
+  .main-btn h3{
+    font-size: 22px;
+  }
+
+  .mainText {
+    padding: 0 200px;
+  }
+  
+  .mainText h2 {
+    font-size: 25px;
+    margin: 18px;
+  }
+  
+  .mainText p {
+    font-size: 14px;
+    margin: 13px 0px;
+  }
+}
+
+/*********** 768px MAX-WIDTH ***********/
+
+@media screen and (max-width:768px) {
+  .mainBG .main-logo {
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .mainBG h1{
+    font-size: 50px;
+  }
+
+  .mainBG h2{
+    font-size: 20px;
+  }
+
+  .main-btn-container{
+    margin-top: 35px;
+  }
+
+  .main-btn{
+    height: 70px;
+    width: 190px;
+  }
+
+  .main-btn-icon{
+    font-size: 25px;
+  }
+
+  .main-btn h3{
+    font-size: 18px;
+  }
+
+  .mainText {
+    padding: 0 200px;
+  }
+  
+  .mainText h2 {
+    font-size: 25px;
+    margin: 18px;
+  }
+  
+  .mainText p {
+    font-size: 14px;
+    margin: 13px 0px;
+  }
+}
+
+/*********** 576px MAX-WIDTH ***********/
+
+@media screen and (max-width:576px) {
+  .mainBG .main-logo {
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .mainBG h1{
+    font-size: 60px;
+  }
+
+  .mainBG h2{
+    font-size: 25px;
+  }
+
+  .main-btn-container{
+    margin-top: 35px;
+  }
+
+  .main-btn{
+    height: 70px;
+    width: 190px;
+  }
+
+  .main-btn-icon{
+    font-size: 25px;
+  }
+
+  .main-btn h3{
+    font-size: 18px;
+  }
+
+  .mainText {
+    padding: 0 50px;
+  }
+  
+  .mainText h2 {
+    font-size: 25px;
+    margin: 18px;
+  }
+  
+  .mainText p {
+    font-size: 14px;
+    margin: 13px 0px;
+  }
+}
+
+/*********** 428px MAX-WIDTH ***********/
+
+@media screen and (max-width:428px) {
+  .mainBG .main-logo {
+    height: 45px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .mainBG h1{
+    font-size: 50px;
+  }
+
+  .mainBG h2{
+    font-size: 25px;
+  }
+
+  .main-btn-container{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .main-btn{
+    height: 70px;
+    width: 300px;
+  }
+
+  .main-btn-icon{
+    font-size: 25px;
+  }
+
+  .main-btn h3{
+    font-size: 18px;
+  }
+
+  .mainText {
+    padding: 0 50px;
+  }
+  
+  .mainText h2 {
+    font-size: 25px;
+    margin: 18px;
+  }
+  
+  .mainText p {
+    font-size: 14px;
+    margin: 13px 0px;
+  }
+}
+
+/*********** 360px MAX-WIDTH ***********/
+
+@media screen and (max-width:360px) {
+  .mainBG .main-logo {
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .mainBG h1{
+    font-size: 40px;
+  }
+
+  .mainBG h2{
+    font-size: 22px;
+  }
+
+  .main-btn-container{
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .main-btn{
+    height: 70px;
+    width: 280px;
+  }
+
+  .main-btn-icon{
+    font-size: 25px;
+  }
+
+  .main-btn h3{
+    font-size: 18px;
+  }
+
+  .mainText {
+    padding: 0 20px;
+  }
+  
+  .mainText h2 {
+    font-size: 25px;
+    margin: 18px;
+  }
+  
+  .mainText p {
+    font-size: 14px;
+    margin: 13px 0px;
+  }
 }
