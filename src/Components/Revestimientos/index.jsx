@@ -4,17 +4,15 @@ import ControlledCarousel from "../Carousel";
 
 const Revestimientos = () => {
 
-    const construccionImages = ["/images/revestimientos4.jpeg", "/images/revestimientos2.jpeg", "/images/revestimientos3.jpeg", "/images/revestimientos1.jpeg"]
+    const revestimientoHome = ["/images/revestimientos4.jpeg", "/images/revestimientos2.jpeg", "/images/revestimientos3.jpeg", "/images/revestimientos1.jpeg"];
+    const revVenecitas = ["/images/venecitas4.jpg", "/images/venecitas3.jpg", "/images/venecitas2.jpg", "/images/venecitas1.jpg"];
+    const revAquavation = ["/images/aquavation1.jpeg","/images/aquavation2.jpeg","/images/aquavation3.jpg"];
+    const piedrasNaturales = ["/images/piedrasNat1.jpg", "/images/piedrasNat2.jpg", "/images/piedrasNat3.jpg", "/images/piedrasNat4.jpg"];
 
     return (
         <div>
             <div>
-                <ControlledCarousel array={construccionImages} className="hola" />
-                <div className="titleContain">
-                    <h1 className="mainTitle">
-                        REVESTIMIENTOS
-                    </h1>
-                </div>
+                <ControlledCarousel array={revestimientoHome} vof={true} titulo="REVESTIMIENTOS" />
             </div>
 
             <div className="mainText">
@@ -43,8 +41,9 @@ const Revestimientos = () => {
                     En COOL SUMMER contamos con personal altamente capacitado para la relizacion del trabajo y con herramientas y maquinarias, para lograr un exelente resultado.
 
                 </p>
-                </div>
-                <div className="mainText">
+            </div>
+            <ControlledCarousel array={revAquavation} vof={true} titulo="Aquavation" small={true} />
+            <div className="mainText">
                 <h2>
                     VENECITAS
                 </h2>
@@ -53,8 +52,9 @@ const Revestimientos = () => {
                     El tradicional sistema de revestimiento veneciano, con productos de alta calidad, tanto nacionales como importados en venecitas viceladas,
                     permite revestir la superficie de la pileta con variados colores simples o convinados, que dan a su pileta una linda terminacion.
                 </p>
-                </div>
-                <div className="mainText">
+            </div>
+            <ControlledCarousel array={revVenecitas}  vof={true} titulo="Venecitas" small={true} />
+            <div className="mainText">
                 <h2>PIEDRAS NATURALES</h2>
                 <p>
                     La colocacion de este tipo de materiales es mas delicado y artesanal, ya que las piedras se colocan de a una y no son todas iguales, con lo que hay que trabajar en la armonia del conjunto, cuidando los detalles y las terminaciones.
@@ -62,6 +62,7 @@ const Revestimientos = () => {
                     En COOL SUMMER, tomamos el proceso de colocacion con la calma necesaria, para no apurar los procesos y seleccionando la mejor convinacion de piedras, para lograr la mejor terminacion de la superficie a recubrir y contamos con personal altamente calificado para la realizacion del trabajo.
                 </p>
             </div>
+            <ControlledCarousel array={piedrasNaturales} vof={true} titulo="Piedras Naturales" small={true} />
         </div>
     );
 };

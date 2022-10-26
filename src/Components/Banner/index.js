@@ -7,7 +7,7 @@ import ControlledCarousel from "../Carousel";
 
 const Banner = () => {
 
-  const bannerImages = ["/images/banner.JPG", "/images/banner2.JPG", "/images/banner3.JPG", "/images/banner4.JPG"]
+  const bannerImages = ["/images/piletaBC1.JPG","/images/banner.JPG", "/images/banner2.JPG", "/images/banner3.JPG"]
 
   return (
     <div>
@@ -45,7 +45,7 @@ const Banner = () => {
 
         </p>
       </div>
-      <ControlledCarousel array={bannerImages} />
+      <ControlledCarousel array={bannerImages} vof={false} />
     </div>
   );
 };

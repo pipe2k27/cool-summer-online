@@ -5,17 +5,17 @@ import ControlledCarousel from "../Carousel";
 
 const Construccion = () => {
 
-  const construccionImages = ["/images/const4.jpg", "/images/const5.jpg", "/images/const6.jpg", "/images/const1.jpg", "/images/const3.jpg", "/images/const9.jpg"]
+  const construccionImages = ["/images/construc1.jpg", "/images/construc2.jpg", "/images/construc3.jpg", "/images/construc4.jpg", "/images/construc5.jpg", "/images/construc6.jpg", "/images/construc7.jpg"]
 
   return (
     <div>
       <div>
-        <ControlledCarousel array={construccionImages} className="hola" />
-        <div className="titleContain">
+        <ControlledCarousel array={construccionImages} vof={true} titulo="CONSTRUCCIÓN" />
+        {/* <div className="titleContain">
           <h1 className="mainTitle">
             CONSTRUCCIÓN
           </h1>
-        </div>
+        </div> */}
       </div>
 
       <div className="mainText">

@@ -1,10 +1,30 @@
-.tooltip-inner{
-    background-color: rgb(19, 12, 92) ;
+.tooltip-inner {
+    background-color: rgb(19, 12, 92);
     color: #fff;
     font-weight: 600;
 }
 
-.tooltip{
-    --bs-tooltip-bg: rgb(19, 12, 92) ;
+.tooltip {
+    --bs-tooltip-bg: rgb(19, 12, 92);
     opacity: 1;
+}
+
+/*********** 576px MAX-WIDTH ***********/
+
+@media screen and (max-width:576px) {
+
+    .waIcon {
+        font-size: 45px;
+    }
+
+}
+
+/*********** 428px MAX-WIDTH ***********/
+
+@media screen and (max-width:428px) {
+
+    .waIcon {
+        font-size: 40px;
+    }
+
 }

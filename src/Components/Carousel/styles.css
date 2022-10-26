@@ -1,4 +1,8 @@
-.carouselContainer {
+.carouselContain{
+    position: relative;
+}
+
+.theCarousel {
     position: relative;
     height: calc(100vh - 70px);
     width: 100%;
@@ -12,7 +16,7 @@
 /*********** 991px MAX-WIDTH ***********/
 
 @media screen and (max-width:991px) {
-    .carouselContainer {
+    .theCarousel {
         height: calc(80vh - 70px);
     }
 
@@ -24,7 +28,13 @@
 /*********** 576px MAX-WIDTH ***********/
 
 @media screen and (max-width:576px) {
-    .carouselContainer {
+    
+    .carouselContain .mainTitle{
+        font-size: 40px;
+    }
+
+    
+    .theCarousel {
         height: calc(60vh - 70px);
     }
 
@@ -36,7 +46,48 @@
 /*********** 428px MAX-WIDTH ***********/
 
 @media screen and (max-width:428px) {
-    .carouselContainer {
+    .carouselContain{
+        margin-top: 70px;
+    }
+
+    .theCarousel{
+        margin-bottom: 50px;
+    }
+
+    .carouselContain .titleContain{
+        right: 0;
+        left: 0;
+        bottom: auto;
+        top: -70px;
+    }
+    
+    .carouselContain .mainTitle{
+        width: 100%;
+        border-radius: 1px !important;
+        font-size: 30px;
+    }
+
+    .venecitas, .aquavation, .piedras{
+        font-size: 20px !important;
+    }
+
+    .carouselContain .venecitas, .carouselContain .aquavation, .carouselContain .piedras{
+        top: -60px !important;
+    }
+
+    .theCarousel {
+        height: calc(40vh - 70px);
+    }
+
+    .carousel-item img {
+        height: calc(40vh - 70px) !important;
+    }
+}
+
+/*********** 360px MAX-WIDTH ***********/
+
+@media screen and (max-width:360px) {
+    .theCarousel {
         height: calc(40vh - 70px);
     }
 

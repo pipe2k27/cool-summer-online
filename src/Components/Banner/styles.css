@@ -105,7 +105,7 @@
   align-items: center;
   text-align: flex-start;
   padding: 0 350px;
-  margin-bottom: 100px;
+  margin: 100px 0px;
 }
 
 .mainText h2 {
@@ -120,6 +120,7 @@
   margin: 15px 0px;
   color: rgba(90, 85, 156, 0.93);
   font-weight: 600;
+  text-align: justify;
 }
 
 .btn-success {
@@ -193,6 +194,7 @@
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
+    text-align: justify;
   }
 }
 
@@ -241,6 +243,7 @@
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
+    text-align: justify;
   }
 }
 
@@ -278,6 +281,7 @@
   }
 
   .mainText {
+    margin-top: 40px;
     padding: 0 50px;
   }
   
@@ -289,6 +293,7 @@
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
+    text-align: justify;
   }
 }
 
@@ -310,6 +315,7 @@
 
   .main-btn-container{
     margin-top: 20px;
+    margin-bottom: 50px;
     flex-direction: column;
   }
 
@@ -338,6 +344,7 @@
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
+    text-align: justify;
   }
 }
 
@@ -359,6 +366,7 @@
 
   .main-btn-container{
     margin-top: 10px;
+    margin-bottom: 40px;
     flex-direction: column;
   }
 

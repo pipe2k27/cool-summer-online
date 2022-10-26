@@ -15,17 +15,21 @@ const Contacto = () => {
         setValidated(true);
     };
 
+    const mailCoolSummer = "email@coolsummer.com"
+
     return (
         <div className='contactoContainer'>
             <div className='contactoOverlay'>
                 <div className='contactTitle'>
                     <h1>CONTACTANOS</h1>
-                    <h4>Completá el siguiente formulario y dejanos tu consulta.</h4>
-                    <h4>En breve nos pondremos en contacto para asesorarte en lo que necesites.</h4>
+                    <h4>Completá el siguiente formulario y dejanos tu consulta. <br/>
+                    En breve nos pondremos en contacto para asesorarte en lo que necesites.
+                    </h4>
+                    {/* <h4></h4> */}
                     <img src="/images/logo-no-letters.png" alt="" />
                 </div>
                 <div className='contactForm'>
-                    <Form className='contactForm' noValidate validated={validated} onSubmit={handleSubmit} action="https://formsubmit.co/tobias_mancini@hotmail.com" method='post'>
+                    <Form className='contactForm' noValidate validated={validated} onSubmit={handleSubmit} action={`https://formsubmit.co/${mailCoolSummer}`} method='post'>
                         <Row className="mb-3 inputsContain">
                             <span className='inputsSpan'></span>
                             <Form.Group as={Col} className='inputStyle' md="4" controlId="validationCustom01">
@@ -76,8 +80,7 @@ const Contacto = () => {
                                 />
                                 <Form.Control.Feedback>Bien!</Form.Control.Feedback>
                             </Form.Group>
-                            {/* <input type="hidden" name="_next" value="http://localhost:3000/contacto" />
-                            <input type="hidden" name="_captcha" value="false" /> */}
+                            
                         </Row>
                     </Form>
                 </div>

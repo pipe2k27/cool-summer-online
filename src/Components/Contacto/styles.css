@@ -123,3 +123,209 @@
     border: solid 1px rgba(19, 12, 92, 0.93);
     border-bottom: solid 1px #fff;
 }
+
+/*********** 768px MAX-WIDTH ***********/
+
+@media screen and (max-width:768px){
+    .contactTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        width: auto;
+        padding: 30px;
+    }
+    
+    .contactTitle h1{
+        font-size: 60px;
+        margin: 40px 0px;
+        color:rgba(19, 12, 92) ;
+        font-weight: 700;
+    }
+    
+    .contactTitle img{
+        align-self: center;
+        height: 60px;
+        width: auto;
+        margin: 25px 0;
+    }
+    
+    .contactTitle h4{
+        color: rgba(19, 12, 92);
+        font-size: 14px;
+        width: 360px;
+    }
+    
+    .contactForm{
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .contactForm div{
+        width: 90%;
+        margin: 5px;
+        padding: 0px !important;
+    }
+    
+    .contactForm input{
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .contactForm textarea{
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .contactForm button{
+        width: 90%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+/*********** 576px MAX-WIDTH ***********/
+
+@media screen and (max-width:576px){
+    .contactTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        width: auto;
+        padding: 30px;
+    }
+    
+    .contactTitle h1{
+        font-size: 40px;
+        margin: 40px 0px;
+    }
+    
+    .contactTitle img{
+        align-self: center;
+        height: 40px;
+        margin: 20px 0;
+    }
+    
+    .contactTitle h4{
+        color: rgba(19, 12, 92);
+        font-size: 13px;
+        width: 260px;
+    }
+    
+    .contactForm{
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .contactForm div{
+        width: 90%;
+        margin: 5px;
+        padding: 0px !important;
+    }
+    
+    .contactForm input{
+        padding: 7px;
+        font-size: 16px;
+    }
+    
+    .contactForm textarea{
+        padding: 7px;
+        font-size: 16px;
+    }
+    
+    .contactForm button{
+        width: 90%;
+        padding: 7px;
+        font-size: 14px;
+    }
+    
+}
+
+/*********** 428px MAX-WIDTH ***********/
+
+@media screen and (max-width:428px){
+    .contactoOverlay{
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .contactTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+        width: auto;
+        padding: 40px 0px;
+    }
+    
+    .contactTitle h1{
+        font-size: 40px;
+        margin: 20px 0px;
+    }
+    
+    .contactTitle img{
+        align-self: center;
+        height: 40px;
+        margin: 10px 0; 
+    }
+    
+    .contactTitle h4{
+        color: rgba(19, 12, 92);
+        font-size: 13px;
+        width: 80%;
+        text-align: justify;
+    }
+    
+    .contactForm{
+        height: 100%;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    
+    .contactForm .inputsContain{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0px;
+        padding: 0px !important;
+    }
+    
+    .contactForm input{
+        padding: 4px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .inputStyle{
+        width: 100%;
+    }
+    
+    .contactForm textarea{
+        padding: 4px;
+        font-size: 14px;
+    }
+    
+    .contactForm button{
+        width: 90%;
+        padding: 7px;
+        font-size: 14px;
+    }
+    
+}
