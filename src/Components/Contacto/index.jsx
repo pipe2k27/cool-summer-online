@@ -15,7 +15,7 @@ const Contacto = () => {
         setValidated(true);
     };
 
-    const mailCoolSummer = "email@coolsummer.com"
+    const mailCoolSummer = "coolsummerok@gmail.com"
 
     return (
         <div className='contactoContainer'>
