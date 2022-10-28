@@ -8,7 +8,7 @@ import ControlledCarousel from "../Carousel";
 const Banner = () => {
   const bannerImages = [
     "/images/piletaBC1.jpg",
-    "/images/banner.jpg",
+    "/images/banner.JPG",
     "/images/banner2.jpg",
     "/images/banner3.jpg",
   ];
