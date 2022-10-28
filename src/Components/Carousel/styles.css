@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.carouselContain img{
+    object-fit: cover;
+}
+
 .theCarousel {
     position: relative;
     height: calc(100vh - 70px);
