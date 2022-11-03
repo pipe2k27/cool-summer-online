@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";
 import Banner from "./Components/Banner";
 import Banner2 from "./Components/Banner2";
 import Footer from "./Components/Footer";
@@ -8,6 +8,7 @@ import NavbarBS from "./Components/NavbarBS";
 import TooltipBS from "./Components/TooltipBs";
 import Revestimientos from "./Components/Revestimientos";
 import Contacto from "./Components/Contacto";
+import Reformas from "./Components/Reformas";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </Route>
       <Route path="/construccion">
         <Construccion />
+      </Route>
+      <Route path="/reformas">
+        <Reformas />
       </Route>
       <Route path="/revestimientos">
         <Revestimientos />
