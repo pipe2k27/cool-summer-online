@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
-import { Link } from "react-router-dom";
 import ControlledCarousel from "../Carousel";
+import ReactGa from "react-ga";
 
 const Reformas = () => {
+  useEffect(() => {
+    ReactGa.pageview(window.location.pathname);
+  }, []);
+
   const construccionImages = [
     "/images/reformas1.jpeg",
     "/images/reformas2.jpeg",
