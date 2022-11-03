@@ -81,19 +81,23 @@
   cursor: pointer;
   margin: 3px;
   transition: all 200ms ease-in;
+  border-radius: 4px;
+  padding-top: 10px;
 }
 
 .main-btn:hover {
-  background-color: rgba(19, 12, 92);
-  border-bottom: solid 1px #fff;
+  background-color: rgb(14, 10, 58);
+  opacity: 0.9;
+  transform: scale(0.97);
 }
 
 .main-btn-icon {
   font-size: 35px;
+  margin-bottom: 8px;
 }
 
 .main-btn h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -141,9 +145,9 @@
 .waIcon {
   position: relative;
   font-size: 50px;
+  width: 60px;
   color: rgb(19, 12, 92);
-  background-color: #fff;
-  border-radius: 100px;
+  /* background-color: #fff; */
   padding: 0px;
   cursor: pointer;
   transition: all 200ms ease-in;
@@ -151,46 +155,46 @@
 
 /*********** 991px MAX-WIDTH ***********/
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   .mainBG .main-logo {
     height: 55px;
     margin: 20px 0px 20px 0px;
   }
 
-  .mainBG h1{
+  .mainBG h1 {
     font-size: 65px;
   }
 
-  .mainBG h2{
+  .mainBG h2 {
     font-size: 25px;
   }
 
-  .main-btn-container{
+  .main-btn-container {
     margin-top: 50px;
   }
 
-  .main-btn{
+  .main-btn {
     height: 85px;
     width: 220px;
   }
 
-  .main-btn-icon{
+  .main-btn-icon {
     font-size: 30px;
   }
 
-  .main-btn h3{
+  .main-btn h3 {
     font-size: 22px;
   }
 
   .mainText {
     padding: 0 200px;
   }
-  
+
   .mainText h2 {
     font-size: 25px;
     margin: 18px;
   }
-  
+
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
@@ -200,46 +204,46 @@
 
 /*********** 768px MAX-WIDTH ***********/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .mainBG .main-logo {
     height: 50px;
     margin: 20px 0px 20px 0px;
   }
 
-  .mainBG h1{
+  .mainBG h1 {
     font-size: 50px;
   }
 
-  .mainBG h2{
+  .mainBG h2 {
     font-size: 20px;
   }
 
-  .main-btn-container{
+  .main-btn-container {
     margin-top: 35px;
   }
 
-  .main-btn{
+  .main-btn {
     height: 70px;
     width: 190px;
   }
 
-  .main-btn-icon{
+  .main-btn-icon {
     font-size: 25px;
   }
 
-  .main-btn h3{
+  .main-btn h3 {
     font-size: 18px;
   }
 
   .mainText {
     padding: 0 200px;
   }
-  
+
   .mainText h2 {
     font-size: 25px;
     margin: 18px;
   }
-  
+
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
@@ -249,34 +253,34 @@
 
 /*********** 576px MAX-WIDTH ***********/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .mainBG .main-logo {
     height: 50px;
     margin: 0px 0px 10px 0px;
   }
 
-  .mainBG h1{
+  .mainBG h1 {
     font-size: 60px;
   }
 
-  .mainBG h2{
+  .mainBG h2 {
     font-size: 25px;
   }
 
-  .main-btn-container{
+  .main-btn-container {
     margin-top: 35px;
   }
 
-  .main-btn{
+  .main-btn {
     height: 70px;
     width: 190px;
   }
 
-  .main-btn-icon{
+  .main-btn-icon {
     font-size: 25px;
   }
 
-  .main-btn h3{
+  .main-btn h3 {
     font-size: 18px;
   }
 
@@ -284,12 +288,12 @@
     margin-top: 40px;
     padding: 0 50px;
   }
-  
+
   .mainText h2 {
     font-size: 25px;
     margin: 18px;
   }
-  
+
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
@@ -299,48 +303,50 @@
 
 /*********** 428px MAX-WIDTH ***********/
 
-@media screen and (max-width:428px) {
+@media screen and (max-width: 428px) {
   .mainBG .main-logo {
     height: 45px;
     margin: 0px 0px 10px 0px;
   }
 
-  .mainBG h1{
+  .mainBG h1 {
     font-size: 50px;
   }
 
-  .mainBG h2{
+  .mainBG h2 {
     font-size: 25px;
   }
 
-  .main-btn-container{
+  .main-btn-container {
     margin-top: 20px;
     margin-bottom: 50px;
     flex-direction: column;
   }
 
-  .main-btn{
-    height: 70px;
-    width: 300px;
+  .main-btn {
+    height: 85px;
+    width: 250px;
+    padding-top: 10px;
+    transform: scale(0.9);
   }
 
-  .main-btn-icon{
-    font-size: 25px;
+  .main-btn-icon {
+    font-size: 40px;
   }
 
-  .main-btn h3{
-    font-size: 18px;
+  .main-btn h3 {
+    font-size: 15px;
   }
 
   .mainText {
     padding: 0 50px;
   }
-  
+
   .mainText h2 {
     font-size: 25px;
     margin: 18px;
   }
-  
+
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
@@ -350,48 +356,48 @@
 
 /*********** 360px MAX-WIDTH ***********/
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   .mainBG .main-logo {
     height: 40px;
     margin: 0px 0px 10px 0px;
   }
 
-  .mainBG h1{
+  .mainBG h1 {
     font-size: 40px;
   }
 
-  .mainBG h2{
+  .mainBG h2 {
     font-size: 22px;
   }
 
-  .main-btn-container{
+  .main-btn-container {
     margin-top: 10px;
     margin-bottom: 40px;
     flex-direction: column;
   }
 
-  .main-btn{
-    height: 70px;
-    width: 280px;
+  .main-btn {
+    height: 80px;
+    width: 240px;
   }
 
-  .main-btn-icon{
+  .main-btn-icon {
     font-size: 25px;
   }
 
-  .main-btn h3{
+  .main-btn h3 {
     font-size: 18px;
   }
 
   .mainText {
     padding: 0 20px;
   }
-  
+
   .mainText h2 {
     font-size: 25px;
     margin: 18px;
   }
-  
+
   .mainText p {
     font-size: 14px;
     margin: 13px 0px;
