@@ -9,6 +9,9 @@ import TooltipBS from "./Components/TooltipBs";
 import Revestimientos from "./Components/Revestimientos";
 import Contacto from "./Components/Contacto";
 import Reformas from "./Components/Reformas";
+import ReactGa from "react-ga";
+
+ReactGa.initialize("UA-248517369-1");
 
 function App() {
   return (

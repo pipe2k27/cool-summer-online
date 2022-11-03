@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 import { RiToolsFill, RiPaintBrushFill } from "react-icons/ri";
 import { TbShovel } from "react-icons/tb";
 import ControlledCarousel from "../Carousel";
+import ReactGa from "react-ga";
 
 const Banner = () => {
+  useEffect(() => {
+    ReactGa.pageview(window.location.pathname);
+  }, []);
+
   const bannerImages = [
     "/images/piletaBC1.jpg",
     "/images/banner.JPG",
