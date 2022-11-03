@@ -117,12 +117,14 @@
   font-size: 30px;
   margin: 20px;
   color: rgb(19, 12, 92);
+  border-bottom: 2px solid rgb(237, 237, 244);
+  padding-bottom: 20px;
 }
 
 .mainText p {
-  font-size: 16px;
+  font-size: 19px;
   margin: 15px 0px;
-  color: rgba(90, 85, 156, 0.93);
+  color: rgba(39, 34, 101, 0.93);
   font-weight: 600;
   text-align: justify;
 }
@@ -196,7 +198,7 @@
   }
 
   .mainText p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 13px 0px;
     text-align: justify;
   }
@@ -245,7 +247,7 @@
   }
 
   .mainText p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 13px 0px;
     text-align: justify;
   }
@@ -295,7 +297,7 @@
   }
 
   .mainText p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 13px 0px;
     text-align: justify;
   }
@@ -348,9 +350,10 @@
   }
 
   .mainText p {
-    font-size: 14px;
+    font-size: 15px;
     margin: 13px 0px;
     text-align: justify;
+    opacity: 0.9;
   }
 }
 
@@ -399,7 +402,8 @@
   }
 
   .mainText p {
-    font-size: 14px;
+    font-size: 15px;
     margin: 13px 0px;
+    opacity: 0.9;
   }
 }
