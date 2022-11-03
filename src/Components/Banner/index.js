@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import { RiToolsFill } from "react-icons/ri";
+import { RiToolsFill, RiPaintBrushFill } from "react-icons/ri";
 import { TbShovel } from "react-icons/tb";
 import ControlledCarousel from "../Carousel";
 
@@ -37,11 +37,17 @@ const Banner = () => {
             </Link>
             <Link className="mainLink" to={"revestimientos"}>
               <div className="main-btn">
-                <RiToolsFill className="main-btn-icon" />
+                <RiPaintBrushFill className="main-btn-icon" />
                 <h3>Revestimientos</h3>
               </div>
             </Link>
           </div>
+          <Link className="mainLink" to={"reformas"}>
+            <div className="main-btn">
+              <RiToolsFill className="main-btn-icon" />
+              <h3>Reformas</h3>
+            </div>
+          </Link>
         </div>
       </div>
       <div className="mainText">
