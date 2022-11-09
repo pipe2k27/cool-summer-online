@@ -23,6 +23,7 @@ const Revestimientos = () => {
   const revAquavation = [
     "/images/aquavation1.jpeg",
     "/images/aquavation2.jpeg",
+    "/images/aquavation4.jpg",
   ];
   const piedrasNaturales = [
     "/images/piedrasNat1.jpg",
