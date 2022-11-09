@@ -9,10 +9,10 @@ const Reformas = () => {
   }, []);
 
   const construccionImages = [
-    "/images/reformas1.jpeg",
     "/images/reformas2.jpeg",
+    "/images/reformas1.jpeg",
     "/images/reformas3.jpg",
-    "/images/reformas4.jpeg",
+    "/images/reformas5.jpg",
   ];
 
   return (
